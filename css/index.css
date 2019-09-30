@@ -1,0 +1,257 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p, body {
+    margin: 0;
+    padding: 0;
+}
+
+input, select, option {
+    outline: none;
+    border: none;
+}
+
+/* Общие стили */
+.page {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text--customer_3 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+/* Styles for block discount */
+
+.discount {
+    background: #ae1c1b;
+    padding: 21px;
+}
+
+.discount__title {
+    font-size: 20px;
+}
+
+/* Background image for the first item */
+.bg-1 {
+    background: #fff url(../img/bg_1.png) no-repeat;
+}
+
+/* Background image for the second item */
+.bg-2 {
+    background: #fff url(../img/bg_2.png) no-repeat;
+    position: relative;
+    height: 398px;
+}
+
+/* Background image for the third item */
+.bg-3 {
+    background: #fff url(../img/bg_3.png) no-repeat;
+}
+
+/* Styles for block good */
+.good {
+    width: 100%;
+    background-size: cover;
+    padding: 1px 0 23px;
+}
+
+.good__img {
+    width: 100%;
+    height: auto;
+}
+
+.good__img--customer_1 {
+    display: block;
+    width: 260px;
+    margin: 23px auto;
+}
+
+.good__img--customer_2 {
+    position: absolute;
+    top: 65px;
+    right: 37px;
+    width: 75px;
+}
+
+.good__img--customer_3 {
+    display: block;
+    width: 275px;
+    margin: 23px auto;
+}
+
+.good__title {
+    color: #ae1c1b;
+    font-weight: 500;
+}
+
+.good__subtitle {
+    color: #ae1c1b;
+    font-weight: normal;
+}
+
+/* Styles for block item lists */
+.list {
+}
+
+.list--customer_1 {
+    margin: 15px 0 15px 28px;
+}
+
+.list--customer_2 {
+    margin: 15px 0 15px 47px;
+}
+
+
+.list__item {
+    list-style-image: url(../img/checkbox.png);
+    margin: 8px 0;
+}
+
+/* Styles for block video */
+.video {
+    width: 100%;
+    height: 193px;
+    margin-bottom: -4px;
+}
+
+/* Styles for block order */
+.order {
+    background-color: #1769a2;
+    text-align: center;
+    padding: 1px;
+}
+
+.order__price {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-top: 18px;
+}
+
+.order__discount {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+.order__title {
+    margin-top: 31px;
+}
+
+.order__subtitle {
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+.order__form {
+    margin-top: 24px;
+}
+
+.order__select,
+.order__input {
+    width: 100%;
+    max-width: 249px;
+    padding: 18px 16px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.order__button {
+    border: 3px solid #fff;
+    background-color: #ae1c1b;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: calc(100% - 35px);
+    max-width: 249px;
+    padding: 12px 40px;
+    margin-top: 20px;
+}
+
+/* Styles for block action */
+.action {
+    margin-top: 27px;
+    margin: 29px;
+}
+
+.action__text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.action__link {
+    display: block;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Styles for block timer */
+.timer {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.timer__box {
+    width: 20%;
+}
+
+.timer__number {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.timer__text {
+    margin-top: 13px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Styles for iphone */
+input, select, option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
